@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+body, html {
+  height: 100%;
+}
+
+.main-access {
+  background-image: url("./images/5782.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: azure;
+
+}
+ @media  only screen and (min-height:577px) and (max-height:620px){
+   .main-access{
+     height: 130vh;
+   }
+ }
+.login-fit{
+  padding: 6%;
+}
+
+.welcome-fit{
+  margin-top: 100px;
+  padding: 6%;
+}
+
+.welcome-fit h1{
+  font-size: 100px;
+  color: #ff4581;
+  font-family: 'League Gothic', sans-serif;
+}
+
+.welcome-fit p{
+  font-size: 48px;
+}
+
+.mb-3{
+  text-align: left;
+}
+
+.btn-login{
+  width: 100%;
+}
+
+.loginform{
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.registerform{
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  padding: 6%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .registerform input{
+  height: calc(100%/6);
+  background-color: blueviolet;
+} */
+
+.btn-register{
+  width: 100%;
+}
+
+.option{
+  text-align: right;
+  margin-top: 10px;
+}
+
+
+
+.navbar{
+  padding: 15px;
+}
+
+.navbar-collapse ul{
+ margin: 0 auto;
+}
+
+.navbar-collapse ul li {
+  margin-left: 25px;
+}
+
+.exit{
+  margin-left: 20px;
+}
+
+
+
+
+.slider-clasification li{
+  list-style: none;
+}
+
+.slider-clasification ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.slider-clasification img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .2s;
+  position: relative;
+}
+
+#futbol-img:hover {
+  transform: scale(1.2);
+  z-index: 1000;
+}
+
+
+#tenis-img:hover {
+  transform: scale(1.2);
+  z-index: 1000;
+}
+
+#basquetbol-img:hover {
+  transform: scale(1.2);
+  z-index: 1000;
+}
+
+
+#baseball-img:hover {
+  transform: scale(1.2);
+  z-index: 1000;
+}
+
+#running-img:hover {
+  transform: scale(1.2);
+}
+
+.menu-clasificacion {
+  min-height: 100vh;
+}
+
+.main {
+  padding: 0;
+  background-color: rgba(226, 226, 226, 0.301);
+}
+
+.table-events{
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+.table-main{
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.table-events-search{
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+
+@media  only screen and (min-height:577px) and (max-height:620px){
+  .table-events-search{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+}
+
+.dashboard h3{
+  margin-bottom:20px;
+}
+
+#showdate{
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.btn-full{
+  background-color: red;
+  color: white;
+  padding: 1px 20px;
+  border-radius: 10px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.btn-available{
+  background-color: rgb(0, 202, 84);
+  color: white;
+  padding: 1px 20px;
+  border-radius: 10px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.pageclick button{
+  margin-left: 60px;
+  padding: 1%;
+}
+.pageclick{
+  text-align: center;
+}
+
+.form-search-eve{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  gap: 30px;
+  text-align: center;
+}
+
+.form-search-eve h6{
+  margin-top: 4px;
+}
+
+.btn-search{
+  padding: 3px 20px 3px 20px;
+}
+
+.table-search th{
+  text-align: center;
+  justify-content: center;
+}
+
+.attendees{
+  text-align: center;
+}
+
+.search-event{
+  border: solid 1px rgb(206, 206, 206);
+  border-radius: 10px;
+  text-align: center;
+  width: 60%;
+  padding-top: 6px;
+}
+.search-event-select{
+  border: solid 1px rgb(206, 206, 206);
+  border-radius: 10px;
+  text-align: center;
+  width: 40%;
+  padding-top: 6px;
+}
+
+.search-even-cat{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.a-decoration{
+  text-decoration: none;
+}
+
+.join{
+  color: white !important;
+  font-weight: 500;
+  font-size: 17px;
+  background-color: rgb(0, 202, 84) !important;
+}
+
+
+.create-event-form{
+ margin-top: 2%;
+ width: 100%;
+ margin-left: 5%;
+}
+
+.btn-info-event{
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.eve-info{
+  border: solid 4px rgba(0, 0, 255, 0.575);
+  border-left: none;
+  border-radius: 20px;
+  height: 340px;
+  background-color: white;
+  font-size: 18px;
+}
+
+.main-eve-info{
+  margin: 4%;
+}
+
+.btn-top-eve{
+  margin-top: 70px;
+}
+.main-event-route{
+  zoom: 80%;
+}
+
+#event-information{
+  margin-top: 35px;
+}
+
+.event-date{
+  margin-top: 30px;
+  margin-left: 7px;
+}
+
+.event-description h3{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.event-description{
+  margin: 4%;
+}
+
+.event-user h3{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.event-user{
+  margin-left: 30px;
+}
+
+.chat-event{
+  margin: 2% 5%;
+  height: 220px;
+}
+
+.btn-send-form-message{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.btn-send-input{
+  width: 190px;
+  margin-left: 50px;
+}
+
+#tableProfile{
+  width: 1000px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+#titleProfile{
+  background-color: #4f7cd5d9;
+  color: white;
+}
+
+#field4{
+  width: 250px;
+}
+
+#field5{
+  width: 500px;
+}
+
+#field6{
+  width: 250px;
+}
+
+.pAlert
+.labelForm{
+font-size: 15px;
+}
+
+
+.delete-icon{
+  color: red !important;
+}
+
+#searchInput{
+  width: 1000px;
+  display: inline-block;
+
+}
+
+.mys-events{
+  margin-top: 10px;
+}
+
+.comingsoon{
+  background-color: aqua;
+  padding: 3px 7px;
+  border-radius: 100px;
+  margin-left: 20px;
+}
+
+.finalized{
+  background-color: rgb(255, 111, 111);
+  padding: 3px 7px;
+  border-radius: 100px;
+  margin-left: 20px;
+}
